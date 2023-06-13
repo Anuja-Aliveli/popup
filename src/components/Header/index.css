@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: "Roboto";
+  border-bottom: 1px solid #dcdcdc;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.icon-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.icon {
+    font-size: 30px;
+    color: black;
+}
+.links-container {
+    list-style-type: none;
+    padding: 0;
+    align-self: center;
+    margin-top: 150px;
+}
+.link-item {
+    text-decoration: none;
+}
+.text-link {
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+}
+.button {
+    align-self: flex-end;
+}
+.popup-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
